@@ -14,9 +14,12 @@ test("'12345678' must be '12 345 678' (spaces in good places)", () => {
 });
 
 // LEVEL 2
+// Exemples : 
 // numbers('123,45') => '123,45'
 // numbers('123456,78') => '123 456,78'
 // numbers('1,23456') => '1,23456'
+//
+// Tests : pensez à les décommenter si vous voulez les essayer
 // test("'123,45' must remain unchanged (now with comas)", () => {
 //   expect(numbers("123,45")).toBe("123,45");
 // });
@@ -31,9 +34,12 @@ test("'12345678' must be '12 345 678' (spaces in good places)", () => {
 // });
 
 // LEVEL 3
+// Exemples :
 // numbers('-123') => '-123'
 // numbers('-12345') => '-12 345'
 // numbers('-12345,6789') => '-12 345,6789'
+//
+// Tests : pensez à les décommenter si vous voulez les essayer
 // test("'-123' must remain unchanged (negative number)", () => {
 //   expect(numbers("-123")).toBe("-123");
 // });
